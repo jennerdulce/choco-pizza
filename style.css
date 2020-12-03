@@ -36,3 +36,54 @@ h1 {
 main h1 {
   font-size: 30px
 }
+
+#print, #printicon {
+  float: right;
+}
+
+#print {
+  display: inline
+}
+
+#chocopizza {
+  width: 960px;
+  margin-top: 30px
+}
+
+/* section: instructions */
+#instructions p {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 20px;
+  text-indent: 50px;
+}
+
+#ingredients {
+  background-image: url("../assets/list-bg.png");
+  margin: 30px;
+}
+
+/* section: bio */
+#photo {
+  float: left
+}
+
+button {
+  float: right;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  background-color: rgba(220, 85, 2, 0.735);
+  font-size: 16px;
+  padding: 8px 25px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#bio {
+  font-size:20px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 590px
+}
