@@ -1,0 +1,38 @@
+/* general */
+body {
+  width: 960px;
+  margin: auto;
+}
+
+/* nav */
+#navcontainer {
+  padding-bottom: 30px
+}
+
+#logo, #navlist {
+  float: left;
+}
+
+#iconlist {
+  float: right;
+}
+
+#iconlist li {
+  display: inline;
+}
+
+hr {
+  clear: both
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 28px;
+  display:inline-block
+}
+
+/* body */
+/* main */
+main h1 {
+  font-size: 30px
+}
