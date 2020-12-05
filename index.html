@@ -1,44 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <title>Chocolate Pizza</title>
 </head>
 
 <body>
   <header>
-    <section id="navcontainer">
-      <img id="logo" src="assets/logo.png" alt="logo">
-      <ul id="navlist">
-        <li><h1>Delicious</h1></li>
+    <div id="navcontainer">
+      <img id="logoimg" src="assets/logo.png" alt="picture of logo">
+      <ul id="delicious">
+        <li><h2>Delicious</h2></li>
         <li><h6>THE BEST FOOD BLOG ON THE WEB</h6></li>
       </ul>
-      <ul id="iconlist">
+      <ul id="navlist1">
+        <li><img src="assets/flic-icon.png" alt=""></li>
+        <li><img src="assets/mail-icon.png" alt=""></li>
+      </ul>
+      <ul>
         <li><img src="assets/fb-icon.png" alt=""></li>
         <li><img src="assets/twit-icon.png" alt=""></li>
         <li><img src="assets/gp-icon.png" alt=""></li>
         <li><img src="assets/insta-icon.png" alt=""></li>
         <li><img src="assets/rss-icon.png" alt=""></li>
         <li><img src="assets/pint-icon.png" alt=""></li>
-        <li><img src="assets/flic-icon.png" alt=""></li>
-        <li><img src="assets/mail-icon.png" alt=""></li>
       </ul>
-    </section>
-    <hr>
+
+    </div>
   </header>
+  <hr style="background-image: url('assets/hr-img.png');  border: none; margin-top: 30px">
+  <!-- <div id="hrdiv"></div> -->
   <main>
+    <div id="separatortop"></div>
     <h1>Chocolate Pizza</h1>
-    <h6>POSTED ON 15 DEC 2013 / DESSERTS</h6>
-    <h6 id="print">PRINT</h6>
-    <img id="printicon"src="assets/print-icon.png" alt="print icon">
-    <img id="chocopizza" src="assets/choco-pizza.png" alt="choco pizza">
+    <h6>POSTED ON 15 DEC 2013/DESSERTS</h6>
+    <p id="print">PRINT</p>
+    <img id="printicon" src="assets/print-icon.png" alt="">
+    <img id="chocopizza" src="assets/choco-pizza.png" alt="">
     <section id="instructions">
       <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
         of figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until
@@ -52,15 +57,13 @@
         for at least two hours before serving.</p>
     </section>
     <section id="ingredients">
-      <ul id="leftingredients">
+      <ul id="ingredientslist">
         <li><input type="checkbox"> 1 1/2 cups milk</li>
         <li><input type="checkbox"> 1/2 cup mascarpone</li>
         <li><input type="checkbox"> 1/2 tsp pink salt</li>
         <li><input type="checkbox"> 1 lb Black Mission Figs</li>
         <li><input type="checkbox"> 1/2 cup brown sugar</li>
         <li><input type="checkbox"> 2-4 tbsp water</li>
-      </ul>
-      <ul id="rightingredients">
         <li><input type="checkbox"> 1 1/2 cups heavy cream</li>
         <li><input type="checkbox"> 1/3 granulated sugar</li>
         <li><input type="checkbox"> 2 egg yolks</li>
@@ -69,20 +72,17 @@
         <li><input type="checkbox"> 1 cup honey roasted pecans, roughly chopped</li>
       </ul>
     </section>
-    <hr>
-    <section id="bio">
+    <hr style="background-image: url('assets/hr-img.png');  border: none;">
+    <section>
       <img id="photo" src="assets/van-pic.png" alt="">
       <h3>Vanessa Stevenson</h3>
-      <p id="description">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am
-      </p>
-      <button>SHARE RECIPE</button>F
+      <p id="bio">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am</p>
+      <button>SHARE RECIPE</button>
     </section>
   </main>
   <footer>
-    <hr class="smallhr">
-    <img id="smalllogo" src="assets/small-logo.png" alt="small logo">
-    <hr class="smallhr">
-    <p id="copy">Delicious &copy; 2013 &middot; All Rights Reserved</p>
+    <img id="smalllogo" src="assets/small-logo.png" alt="picture of small logo">
+    <p id="p1">Delicious &copy; 2013 &middot; All Rights Reserved</p>
     <p>Proudly published with Ghost</p>
   </footer>
 </body>
